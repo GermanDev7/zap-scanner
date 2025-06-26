@@ -16,7 +16,7 @@ Una API REST desarrollada en Node.js que automatiza escaneos de vulnerabilidades
 
 ---
 
-## 🛠 Tecnologías
+## Tecnologías
 
 - **Node.js** + Express
 - **Prisma ORM** + PostgreSQL
@@ -28,37 +28,6 @@ Una API REST desarrollada en Node.js que automatiza escaneos de vulnerabilidades
 
 ---
 
-##  Estructura del Proyecto
-
-zap-scanner-api/
-├── src/
-│ ├── config/
-│ │ ├── prismaClient.js
-│ │ └── swaggerConfig.js
-│ ├── controllers/
-│ │ ├── authController.js
-│ │ └── scanController.js
-│ ├── middlewares/
-│ │ └── authMiddleware.js
-│ ├── routes/
-│ │ ├── authRoutes.js
-│ │ └── scanRoutes.js
-│ ├── services/
-│ │ ├── authService.js
-│ │ └── scanService.js
-│ └── app.js
-├── tests/
-│ └── unit/
-│ └── scannerService.test.js
-├── reports/ # HTMLs generados por ZAP
-├── logs/ # stdout/stderr guardados
-├── .env
-├── .gitignore
-├── README.md
-├── package.json
-└── server.js
-
----
 
 ##  Requisitos Previos
 
